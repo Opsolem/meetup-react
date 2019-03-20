@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb",
+  "env": {
+  	"browser": true,
+  	"jest": true
+  },
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "linebreak-style": [0,  "windows" ],
+    "jsx-a11y/no-autofocus": [ 0, { "ignoreNonDOM": true }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/forbid-prop-types": [1, { "forbid": ["any"] }],
+    "react-hooks/rules-of-hooks": "error",
+    "react/destructuring-assignment": ["always", { "ignoreClassFields": true }]
+  },
+  "parser": "babel-eslint"
+}

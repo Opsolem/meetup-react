@@ -1,28 +1,37 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom';
+
+import Tabs from './features/tabs';
+import { MoviesProps, MoviesState, MoviesLifecycle } from './features/movies';
+
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+
+const tabs = [
+  { label: 'Movies (Props)', path: '/movies/props' },
+  { label: 'Movies (State)', path: '/movies/state' },
+  { label: 'Movies (Lifecycle)', path: '/movies/lifecycle' },
+];
+
+const App = () => (
+  <div className="App">
+    <Router>
+      <React.Fragment>
+        <Tabs tabs={tabs} />
+        <Switch>
+          <Route path="/movies/props" component={MoviesProps} />
+          <Route path="/movies/state" component={MoviesState} />
+          <Route path="/movies/lifecycle" component={MoviesLifecycle} />
+          <Redirect from="/" to="movies/props" />
+        </Switch>
+      </React.Fragment>
+    </Router>
+  </div>
+);
 
 export default App;

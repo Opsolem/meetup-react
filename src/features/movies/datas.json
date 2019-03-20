@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Iron Man",
+    "director": "Jon Favreau",
+    "streetDate": "30 avril 2008",
+    "rate": 4.0,
+    "genres": ["Action", "Science fiction"],
+    "poster": "http://fr.web.img3.acsta.net/r_1920_1080/medias/nmedia/18/62/89/45/18876909.jpg"
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "director": "Dexter Fletcher",
+    "streetDate": "31 octobre 2018",
+    "rate": 4.6,
+    "genres": ["Biopic", "Drame"],
+    "poster": "http://fr.web.img6.acsta.net/r_1920_1080/pictures/18/05/15/09/10/5804499.jpg"
+  },
+  {
+    "title": "Django Unchained",
+    "director": "Quentin Tarantino",
+    "streetDate": "16 janvier 2013",
+    "rate": 4.5,
+    "genres": ["Western"],
+    "poster": "http://fr.web.img6.acsta.net/r_1920_1080/medias/nmedia/18/90/08/59/20366454.jpg"
+  },
+  {
+    "title": "Interstellar",
+    "director": "Christopher Nolan",
+    "streetDate": "5 novembre 2014",
+    "rate": 4.5,
+    "genres": ["Science fiction", "Drame"],
+    "poster": "http://fr.web.img6.acsta.net/r_1920_1080/pictures/14/09/24/12/08/158828.jpg"
+  },
+  {
+    "title": "Zootopie",
+    "director": "Byron Howard",
+    "streetDate": "17 février 2016",
+    "rate": 4.4,
+    "genres": ["Science fiction", "Drame"],
+    "poster": "http://fr.web.img3.acsta.net/r_1920_1080/pictures/15/12/11/14/34/280851.jpg"
+  }
+]
