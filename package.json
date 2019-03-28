@@ -1,5 +1,6 @@
 {
   "name": "meetup-react",
+  "description": "Presentation application of the React component concepts",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -31,7 +32,6 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.5.1",
-    "jest": "^24.5.0",
     "node-sass": "^4.11.0"
   }
 }
